@@ -1,0 +1,36 @@
+<template>
+  <div>
+    <main>
+      <NuxtPage />
+    </main>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+</style>
